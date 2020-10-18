@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .App {
   text-align: center;
-  background: #e3f2fd;
-  font-family: "Nunito", sans-serif;
+  background: #263238;
+  font-family: 'Josefin Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }

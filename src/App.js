@@ -14,15 +14,18 @@ import mov3 from "./assets/robert-tudor--8x6Ffud7Bk-unsplash.jpg";
 import habits1 from "./assets/mika-baumeister-vorH-CF_SZI-unsplash.jpg";
 import habits2 from "./assets/antonino-visalli-vhxfC9lXLmE-unsplash.jpg";
 import habits3 from "./assets/zach-zook-5ed1zAlFnM0-unsplash.jpg";
+import logo from "./assets/logo-02.png";
 
 function App() {
   return (
     <div className="App">
-      <reactBootstrap.Navbar bg="dark" variant="dark">
+      
+      <reactBootstrap.Navbar bg="dark" variant="dark" >
         <reactBootstrap.Navbar.Brand href="#home">
-          Smart02
+          <img src= {logo} style={{height:"3.1em",  width:"4em"}} ></img>
         </reactBootstrap.Navbar.Brand>
-        <reactBootstrap.Nav className="mr-auto">
+        <reactBootstrap.Nav className="mr-auto font-size: 1.5rem
+    font-weight: 100 navbar-fixed-top">
           <reactBootstrap.Nav.Link href="#home">Home</reactBootstrap.Nav.Link>
           <reactBootstrap.Nav.Link href="#features">
             Login
@@ -41,7 +44,7 @@ function App() {
             Buscar
           </reactBootstrap.Button>
         </reactBootstrap.Form>
-      </reactBootstrap.Navbar>
+       </reactBootstrap.Navbar> 
 
       <header>
         <section class="container-fluid px-0">
@@ -51,8 +54,9 @@ function App() {
                 id="headingGroup"
                 class="text-black text-center d-none d-lg-block mt-5"
               >
-                <h1 class="">Smart02</h1>
-                <p>
+                
+                <h1><img src= {logo} style={{height:"3.1em",  width:"4em"}} ></img></h1>
+                <p style={{color: 'white' }}>
                   Somos una solución inteligente al impacto ambiental de
                   nuestras acciones ¿Cómo lo hacemos? Tu registras tu actividad,
                   nosotros calculamos y te ayudamos a ahorrar dinero y gasto
@@ -107,16 +111,16 @@ function App() {
           <div class="col-md-6 text-center order-1 order-md-2">
             <div class="row justify-content-center">
               <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                <h2>Hábitos</h2>
+                <h2 style={{color: '#92E092' }}>Hábitos</h2>
                 <img
                   id="icons"
                   src={habitIcon}
                   alt=""
-                  class="d-none d-lg-inline"
+                  class="d-none d-lg-inline "
                   height="50em"
                   width="50em"
                 />
-                <p class="lead">
+                <p class="lead" style={{color: 'white' }}>
                   En tu día a día se esconden muchas acciones que tienen
                   consecuencias dañinas para el medio ambiente. ¿Conoces cómo
                   revertirlas?
@@ -165,7 +169,7 @@ function App() {
           <div class="col-md-6 text-center order-2 order-md-1">
             <div class="row justify-content-center">
               <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                <h2>Movilidad</h2>
+                <h2 style={{color: '#92E092' }}>Movilidad</h2>
                 <img
                   id="icons"
                   src={autoIcon}
@@ -174,7 +178,7 @@ function App() {
                   height="50em"
                   width="50em"
                 />
-                <p class="lead">
+                <p class="lead" style={{color: 'white' }} >
                   Tu forma de moverte a casa, al trabajo o viajar por tierra,
                   cuenta a la hora de disminuir tu impacto ecológico.
                 </p>
@@ -221,7 +225,7 @@ function App() {
           <div class="col-md-6 text-center order-1 order-md-2">
             <div class="row justify-content-center">
               <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                <h2>Consumo Eléctrico</h2>
+                <h2 style={{color: '#92E092' }}>Consumo Eléctrico</h2>
                 <img
                   id="icons"
                   src={luzIcon}
@@ -229,8 +233,9 @@ function App() {
                   class="d-none d-lg-inline"
                   height="50em"
                   width="50em"
+                  
                 />
-                <p class="lead">
+                <p class="lead" style={{color: 'white' }}>
                   Dos tercios de las emisiones totales de gases de efecto
                   invernadero se deben al modo en que producimos y usamos la
                   energía. Conoce qué gastos hay detrás de cada vez que
