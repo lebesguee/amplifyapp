@@ -19,18 +19,12 @@ import logo from "./assets/logo-02.png";
 function App() {
   return (
     <div className="App">
-      <div id="navbar">
-        <a href="#home"><img src={logo} style={{ height: "3.1em", width: "4em" }}></img></a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <reactBootstrap.Navbar bg="dark" variant="dark">
+       <reactBootstrap.Navbar bg="dark" variant="dark">
         <reactBootstrap.Navbar.Brand href="#home">
           <img src={logo} style={{ height: "3.1em", width: "4em" }}></img>
         </reactBootstrap.Navbar.Brand>
         <reactBootstrap.Nav
-          className="mr-auto font-size: 1.5rem
-    font-weight: 100 navbar-fixed-top"
+          className="mr-auto"
         >
           <reactBootstrap.Nav.Link href="#home">Home</reactBootstrap.Nav.Link>
           <reactBootstrap.Nav.Link href="#features">
