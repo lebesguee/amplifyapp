@@ -20,15 +20,15 @@ function App() {
     <div className="App">
       <reactBootstrap.Navbar bg="dark" variant="dark">
         <reactBootstrap.Navbar.Brand href="#home">
-          Navbar
+          Smart02
         </reactBootstrap.Navbar.Brand>
         <reactBootstrap.Nav className="mr-auto">
           <reactBootstrap.Nav.Link href="#home">Home</reactBootstrap.Nav.Link>
           <reactBootstrap.Nav.Link href="#features">
-            Features
+            Login
           </reactBootstrap.Nav.Link>
           <reactBootstrap.Nav.Link href="#pricing">
-            Pricing
+            CO2++
           </reactBootstrap.Nav.Link>
         </reactBootstrap.Nav>
         <reactBootstrap.Form inline>
@@ -38,7 +38,7 @@ function App() {
             className="mr-sm-2"
           />
           <reactBootstrap.Button variant="outline-info">
-            Search
+            Buscar
           </reactBootstrap.Button>
         </reactBootstrap.Form>
       </reactBootstrap.Navbar>
@@ -49,7 +49,7 @@ function App() {
             <div class="col-lg-6">
               <div
                 id="headingGroup"
-                class="text-white text-center d-none d-lg-block mt-5"
+                class="text-black text-center d-none d-lg-block mt-5"
               >
                 <h1 class="">Smart02</h1>
                 <p>
@@ -76,9 +76,9 @@ function App() {
               <reactBootstrap.Carousel.Item>
                 <img className="d-block w-100" src={habits1} alt="First slide" />
                 <reactBootstrap.Carousel.Caption>
-                  <h3>First slide label</h3>
+                  <h3>Acumula baterías</h3>
                   <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    ¿Cómo?
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -86,9 +86,9 @@ function App() {
                 <img className="d-block w-100" src={habits2} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Second slide label</h3>
+                  <h3>Menos tabaco</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mejora tu salud y apoya al mundo.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -96,10 +96,9 @@ function App() {
                 <img className="d-block w-100" src={habits3} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h3>Vida en tu hogar</h3>
                   <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    Verde es vida.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -134,9 +133,9 @@ function App() {
               <reactBootstrap.Carousel.Item>
                 <img className="d-block w-100" src={mov1} alt="First slide" />
                 <reactBootstrap.Carousel.Caption>
-                  <h3>First slide label</h3>
+                  <h3>Actívate</h3>
                   <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Elige transporte alternativo.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -144,9 +143,9 @@ function App() {
                 <img className="d-block w-100" src={mov2} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Second slide label</h3>
+                  <h3>Menos gas, más vida</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Disminuye tu uso de autómovil
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -154,10 +153,9 @@ function App() {
                 <img className="d-block w-100" src={mov3} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h3>El metro es cool</h3>
                   <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    tu-ru-ru.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -192,9 +190,9 @@ function App() {
               <reactBootstrap.Carousel.Item>
                 <img className="d-block w-100" src={luz} alt="First slide" />
                 <reactBootstrap.Carousel.Caption>
-                  <h3>First slide label</h3>
+                  <h3>Tengo una idea</h3>
                   <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Es un foco.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -202,9 +200,9 @@ function App() {
                 <img className="d-block w-100" src={luz2} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Second slide label</h3>
+                  <h3>Mundo conectado</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Desde aquí se ve mi casa.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
@@ -212,10 +210,9 @@ function App() {
                 <img className="d-block w-100" src={luz3} alt="Third slide" />
 
                 <reactBootstrap.Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h3>Una tele viejita</h3>
                   <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    Y en blanco y negro.
                   </p>
                 </reactBootstrap.Carousel.Caption>
               </reactBootstrap.Carousel.Item>
